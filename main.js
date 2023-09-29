@@ -1,4 +1,4 @@
 function tocaSomMsg(){
-    document.querySelector('.tecla_msg').play();
+    document.querySelector('#som_tecla_msg').play();
 }
 
