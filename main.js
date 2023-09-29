@@ -1,1 +1,1 @@
-alert('Sons bacanas')
+document.querySelector('.tecla_msg').play();
