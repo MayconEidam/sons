@@ -25,3 +25,10 @@ function tocaSomUepa(){
 }
 //chamada ou invocação da função tocaSomUepa ao clicar no botão
 document.querySelector('.tecla_uepa').onclick = tocaSomUepa;
+
+//Declaração/criação da função tocaSomOmg
+function tocaSomOmg(){
+    document.querySelector('#som_tecla_omg').play();
+}
+//chamada ou invocação da função tocaSomOmg ao clicar no botão
+document.querySelector('.tecla_omg').onclick = tocaSomOmg;
