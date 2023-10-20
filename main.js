@@ -46,3 +46,10 @@ function tocaSomHahaha(){
 }
 //chamada ou invocação da função tocaSomHahaha ao clicar no botão
 document.querySelector('.tecla_hahaha').onclick = tocaSomHahaha;
+
+//Declaração/criação da função tocaSomPaysandu
+function tocaSomPaysandu(){
+    document.querySelector('#som_tecla_paysandu').play();
+}
+//chamada ou invocação da função tocaSomPaysandu ao clicar no botão
+document.querySelector('.tecla_paysandu').onclick = tocaSomPaysandu;
