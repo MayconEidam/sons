@@ -11,3 +11,10 @@ function tocaSomGmd(){
 }
 //chamada ou invocação da função tocaSomGmd ao clicar no botão
 document.querySelector('.tecla_gmd').onclick = tocaSomGmd;
+
+//Declaração/criação da função tocaSomLaele
+function tocaSomLaele(){
+    document.querySelector('#som_tecla_laele').play();
+}
+//chamada ou invocação da função tocaSomLaele ao clicar no botão
+document.querySelector('.tecla_laele').onclick = tocaSomLaele;
