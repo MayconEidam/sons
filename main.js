@@ -61,5 +61,7 @@ function tocaSomVasco(){
 //chamada ou invocação da função tocaSomVasco ao clicar no botão
 document.querySelector('.tecla_vasco').onclick = tocaSomVasco;
 
+//criando a referências constante ListaDeTeclas e buscando a classe coletiva .tecla
 const ListaDeTeclas = document.querySelectorAll('.tecla');
+//chamando a constante ListaDeTeclas e o índice 0 do somMsg
 ListaDeTeclas[0].onclick = tocaSomMsg;
