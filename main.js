@@ -53,3 +53,10 @@ function tocaSomPaysandu(){
 }
 //chamada ou invocação da função tocaSomPaysandu ao clicar no botão
 document.querySelector('.tecla_paysandu').onclick = tocaSomPaysandu;
+
+//Declaração/criação da função tocaSomVasco
+function tocaSomVasco(){
+    document.querySelector('#som_tecla_vasco').play();
+}
+//chamada ou invocação da função tocaSomVasco ao clicar no botão
+document.querySelector('.tecla_vasco').onclick = tocaSomVasco;
