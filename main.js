@@ -60,3 +60,6 @@ function tocaSomVasco(){
 }
 //chamada ou invocação da função tocaSomVasco ao clicar no botão
 document.querySelector('.tecla_vasco').onclick = tocaSomVasco;
+
+const ListaDeTeclas = document.querySelectorAll('.tecla');
+ListaDeTeclas[0].onclick = tocaSomMsg;
