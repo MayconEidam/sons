@@ -18,3 +18,10 @@ function tocaSomLaele(){
 }
 //chamada ou invocação da função tocaSomLaele ao clicar no botão
 document.querySelector('.tecla_laele').onclick = tocaSomLaele;
+
+//Declaração/criação da função tocaSomUepa
+function tocaSomUepa(){
+    document.querySelector('#som_tecla_uepa').play();
+}
+//chamada ou invocação da função tocaSomUepa ao clicar no botão
+document.querySelector('.tecla_uepa').onclick = tocaSomUepa;
