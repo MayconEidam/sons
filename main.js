@@ -32,3 +32,10 @@ function tocaSomOmg(){
 }
 //chamada ou invocação da função tocaSomOmg ao clicar no botão
 document.querySelector('.tecla_omg').onclick = tocaSomOmg;
+
+//Declaração/criação da função tocaSomSad
+function tocaSomSad(){
+    document.querySelector('#som_tecla_sad').play();
+}
+//chamada ou invocação da função tocaSomSad ao clicar no botão
+document.querySelector('.tecla_sad').onclick = tocaSomSad;
