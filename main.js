@@ -1,5 +1,5 @@
 //Declaração/criação da função tocaSomMsg
-function tocaSomMsg(idElementoAudio){
+function tocaSom (idElementoAudio){
     document.querySelector(idElementoAudio).play();
 }
 
