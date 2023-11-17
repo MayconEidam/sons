@@ -13,5 +13,7 @@ for(let contador = 0; contador < ListaDeTeclas.length; contador++){
     teclas.onclick = function(){
         tocaSom(idAudio);
     }
-  
+    teclas.onkeydown = function(){
+        teclas.classList.add('tecla'); 
+    }
 }
